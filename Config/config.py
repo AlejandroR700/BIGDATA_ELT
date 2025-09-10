@@ -1,0 +1,1 @@
+DB_PATH = "data/my_database.db"
