@@ -5,7 +5,7 @@ from Load.load import load_data
 
 def main():
     # Ruta del archivo CSV
-    file_path = "Data/data.csv"
+    file_path = "Data/stock_senti_analysis.csv"
     table_name = "mi_tabla"
 
     # ETL pipeline
