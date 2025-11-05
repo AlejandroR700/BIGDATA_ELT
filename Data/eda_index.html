@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Índice EDA - BIGDATA_ELT</title>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;margin:24px}
+    h1{color:#222}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:18px}
+    .card{border:1px solid #ddd;padding:12px;border-radius:6px;background:#fafafa}
+    img{max-width:100%;height:auto;border-radius:4px}
+    a{color:#0366d6}
+  </style>
+</head>
+<body>
+  <h1>Índice de gráficas EDA</h1>
+  <p>Gráficas generadas por <code>eda.py</code>. Haz clic en la imagen para abrirla a tamaño completo.</p>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Distribución de la columna Label</h3>
+      <a href="eda_label_distribution.png"><img src="eda_label_distribution.png" alt="Distribución Label"></a>
+      <p><a href="eda_label_distribution.png">Ver imagen</a></p>
+    </div>
+
+    <div class="card">
+      <h3>Registros por año</h3>
+      <a href="eda_registros_por_ano.png"><img src="eda_registros_por_ano.png" alt="Registros por año"></a>
+      <p><a href="eda_registros_por_ano.png">Ver imagen</a></p>
+    </div>
+
+    <div class="card">
+      <h3>Registros por mes</h3>
+      <a href="eda_registros_por_mes.png"><img src="eda_registros_por_mes.png" alt="Registros por mes"></a>
+      <p><a href="eda_registros_por_mes.png">Ver imagen</a></p>
+    </div>
+
+    <div class="card">
+      <h3>Suma de Label por año</h3>
+      <a href="eda_suma_label_por_ano.png"><img src="eda_suma_label_por_ano.png" alt="Suma Label por año"></a>
+      <p><a href="eda_suma_label_por_ano.png">Ver imagen</a></p>
+    </div>
+
+    <div class="card">
+      <h3>Heatmap de correlación</h3>
+      <a href="eda_heatmap_correlacion.png"><img src="eda_heatmap_correlacion.png" alt="Heatmap"></a>
+      <p><a href="eda_heatmap_correlacion.png">Ver imagen</a></p>
+    </div>
+  </div>
+
+  <hr>
+  <p>CSV fuente: <a href="stock_senti_analysis.csv">stock_senti_analysis.csv</a></p>
+  <p>Nota: si abres el HTML desde el host (ej. `Data/eda_index.html`) las imágenes se cargarán correctamente si están en la misma carpeta.</p>
+</body>
+</html>
